@@ -1,0 +1,36 @@
+{% load static %}
+
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="profile-element">
+                    <img alt="image" class="rounded-circle" src="{% static 'images/blank-avatar.png' %}" width="48"/>
+                    <a href="#">
+                        <p class="block m-t-xs mb-0 font-bold">David Williams</p>
+                        <p class="text-muted text-xs m-0 block">SN123456789</p>
+                    </a>
+                </div>
+            </li>
+            <li class="active" id="zone1" name="zone" value="1">
+                <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Zone 1</span></a>
+            </li>
+            <li name="zone" id="zone2" value="2">
+                <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Zone 2</span></a>
+            </li>
+            <li name="zone" id="zone3" value="3">
+                <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Zone 3</span></a>
+            </li>
+            <li name="boiler" id="boiler">
+                <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Boiler equipment</span></a>
+            </li>
+            <li name="maintanance" id="maintanance">
+                <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Maintanance</span></a>
+            </li>
+            <li name="wheather" id="wheather">
+                <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Wheather</span></a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
